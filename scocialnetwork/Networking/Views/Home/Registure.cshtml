@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Net Registure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Registure</h1>
+    <a href="/">Home</a>
+    <a href="Login">Login</a>
+    @model DatabaseEnter
+    <form asp-action="Create" asp-controller="Home" method="POST">
+        <span asp-validation-for="Firstname"></span>
+        <label asp-for="Firstname"></label>
+        <input asp-for="Firstname">
+        <span asp-validation-for="Lastname"></span>
+        <label asp-for="Lastname"></label>
+        <input asp-for="Lastname">
+        <span asp-validation-for="Email"></span>
+        <label asp-for="Email"></label>
+        <input asp-for="Email">
+        <span asp-validation-for="Password"></span>
+        <label asp-for="Password"></label>
+        <input asp-for="Password">
+        <span asp-validation-for="Confirm"></span>
+        <label asp-for="Confirm"></label>
+        <input asp-for="Confirm">
+        <input type="submit" value="Create account">
+
+    </form>
+</body>
+</html>
