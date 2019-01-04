@@ -1,0 +1,10 @@
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\bin\Debug\netcoreapp2.0\Networking.deps.json
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\bin\Debug\netcoreapp2.0\Networking.runtimeconfig.json
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\bin\Debug\netcoreapp2.0\Networking.runtimeconfig.dev.json
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\bin\Debug\netcoreapp2.0\Networking.dll
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\bin\Debug\netcoreapp2.0\Networking.pdb
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\obj\Debug\netcoreapp2.0\Networking.csproj.CoreCompileInputs.cache
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\obj\Debug\netcoreapp2.0\Networking.AssemblyInfoInputs.cache
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\obj\Debug\netcoreapp2.0\Networking.AssemblyInfo.cs
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\obj\Debug\netcoreapp2.0\Networking.dll
+C:\Users\RaymondDesktop\Desktop\twitter project\scocialnetwork\Networking\obj\Debug\netcoreapp2.0\Networking.pdb
