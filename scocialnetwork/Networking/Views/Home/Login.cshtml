@@ -9,8 +9,19 @@
     <script src="main.js"></script>
 </head>
 <body>
+    @model DatabaseEnter
     <h1>Login</h1>
     <a href="/">Home</a>
     <a href="Registure">Registure</a>
+    <form asp-action="loginto" asp-controller="Home" method="POST">
+        <span asp-validation-for="Email"></span>
+        <label asp-for="Email"></label>
+        <input asp-for="Email">
+        <span asp-validation-for="Password"></span>
+        <label asp-for="Password"></label>
+        <input asp-for="Password">
+        <span asp-validation-for="Confirm"></span>
+        <input type="submit" value="Enter">
+    </form>
 </body>
 </html>

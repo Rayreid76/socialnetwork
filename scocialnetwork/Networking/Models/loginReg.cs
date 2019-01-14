@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Networking.Models
@@ -28,8 +29,8 @@ namespace Networking.Models
         public string Confirm {get; set;}
         [Required]
         [DataType(DataType.Date)]
-        [Display(Name = "Your Age:")]
-        public int Age {get; set;}
+        [Display(Name = "Your Age:")]       
+        public DateTime Age {get; set;}
 
     }
 }
